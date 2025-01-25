@@ -337,8 +337,8 @@ function Registration() {
                 </div>
 
                 <div className="shadow-md p-4 md:p-5 md:mt-9 mt-5 w-full border rounded-md">
-                    <form action="" className='flex flex-col gap-5' id='demo-form'>
-                      <div className="flex max-md:flex-col gap-5 w-full">
+                    <form action="" className='flex flex-col gap-8 md:gap-5' id='demo-form'>
+                      <div className="flex max-md:flex-col gap-8 md:gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
                           <label htmlFor="fname" className='text-sm font-semibold'>First Name <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
@@ -362,7 +362,7 @@ function Registration() {
                         </div>
                       </div>
 
-                      <div className="flex max-md:flex-col gap-5 w-full">
+                      <div className="flex max-md:flex-col gap-8 md:gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
                           <label htmlFor="sex" className='text-sm font-semibold'>Gender <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
@@ -391,7 +391,7 @@ function Registration() {
                         </div>
                       </div>
 
-                      <div className="flex max-md:flex-col gap-5 w-full">
+                      <div className="flex max-md:flex-col gap-8 md:gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
                           <label htmlFor="number" className='text-sm font-semibold'>Phone Number <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
@@ -415,7 +415,7 @@ function Registration() {
                         </div>
                       </div>
 
-                      <div className="flex gap-5 w-full">
+                      <div className="">
                         <div className="flex flex-col gap-2 w-full">
                           <div className='flex justify-between items-center'>
                             <label htmlFor="address" className='text-sm font-semibold'>Address <span className="text-red-600">*</span></label>
