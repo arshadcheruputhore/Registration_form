@@ -340,7 +340,7 @@ function Registration() {
                     <form action="" className='flex flex-col gap-5' id='demo-form'>
                       <div className="flex max-md:flex-col gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="fname" className='text-sm font-light'>First Name <span className="text-red-600">*</span></label>
+                          <label htmlFor="fname" className='text-sm font-semibold'>First Name <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <input onChange={fnameHandler} type="text" name="fname" id="fname" className='px-4 py-2 bg-sky-50 outline-none border-none rounded-lg w-full hover:ring-purple-400 hover:ring-1' required maxLength={20}/>
                           </div>
@@ -351,7 +351,7 @@ function Registration() {
                         </div>
   
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="lname" className='text-sm font-light'>Last Name</label>
+                          <label htmlFor="lname" className='text-sm font-semibold'>Last Name</label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <input onChange={lnameHandler} type="text" name="lname" id="lname" className='px-4 py-2 bg-sky-50 outline-none border-none rounded-lg w-full hover:ring-purple-400 hover:ring-1' maxLength={20}/>
                           </div>
@@ -364,7 +364,7 @@ function Registration() {
 
                       <div className="flex max-md:flex-col gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="sex" className='text-sm font-light'>Gender <span className="text-red-600">*</span></label>
+                          <label htmlFor="sex" className='text-sm font-semibold'>Gender <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <select onChange={(e) => setUserInfo({...userInfo, ['gender']: e.target.value})} name="gender" id="gender" className='px-4 py-2 bg-sky-50 outline-none border-none rounded-lg w-full hover:ring-purple-400 hover:ring-1 appearance-none' required>
                               <option value="" className='bg-white' disabled selected>select</option>
@@ -376,7 +376,7 @@ function Registration() {
                         </div>
 
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="dob" className='text-sm font-light'>Date of Birth <span className="text-red-600">*</span></label>
+                          <label htmlFor="dob" className='text-sm font-semibold'>Date of Birth <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300 p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <ThemeProvider theme={theme}>
                               <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -393,7 +393,7 @@ function Registration() {
 
                       <div className="flex max-md:flex-col gap-5 w-full">
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="number" className='text-sm font-light'>Phone Number <span className="text-red-600">*</span></label>
+                          <label htmlFor="number" className='text-sm font-semibold'>Phone Number <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <input onChange={PHnumberHandler} type="text" name="" id="number" className='px-4 py-2 bg-sky-50 outline-none border-none rounded-lg w-full hover:ring-purple-400 hover:ring-1 appearance-none' required maxLength={10} min={1} inputMode='numeric'/>
                           </div>
@@ -404,7 +404,7 @@ function Registration() {
                         </div>
   
                         <div className="flex flex-col gap-2 md:w-1/2 w-full">
-                          <label htmlFor="fname" className='text-sm font-light'>Email <span className="text-red-600">*</span></label>
+                          <label htmlFor="fname" className='text-sm font-semibold'>Email <span className="text-red-600">*</span></label>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
                             <input onChange={emailHandler} type="email" name="" id="fname" className='px-4 py-2 bg-sky-50 outline-none border-none rounded-lg w-full hover:ring-purple-400 hover:ring-1' placeholder='xyz@gmail.com' required maxLength={30} />
                           </div>
@@ -418,7 +418,7 @@ function Registration() {
                       <div className="flex gap-5 w-full">
                         <div className="flex flex-col gap-2 w-full">
                           <div className='flex justify-between items-center'>
-                            <label htmlFor="address" className='text-sm font-light'>Address <span className="text-red-600">*</span></label>
+                            <label htmlFor="address" className='text-sm font-semibold'>Address <span className="text-red-600">*</span></label>
                             <span className='text-sm text-gray-500'>{addressLen}/100</span>
                           </div>
                           <div className='w-full focus-within:bg-gradient-to-r from-purple-300 via-pink-500 to-red-300  p-0 rounded-lg bg-transparent focus-within:p-[1.8px]'>
