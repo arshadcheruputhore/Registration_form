@@ -307,7 +307,7 @@ function Registration() {
   return (
     <div>
 
-        <section className="flex justify-center items-center min-h-screen w-screen bg-gray-100 relative z-0 max-md:py-8 max-md:px-2">
+        <section className="flex justify-center items-center min-h-screen w-screen bg-gray-100 relative z-0 max-md:py-5">
           {/* <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-0"></div> */}
           {
             loading &&
