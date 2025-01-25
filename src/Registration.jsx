@@ -346,7 +346,7 @@ function Registration() {
                           </div>
                           {
                             validFname &&
-                            <span className="text-xs text-yellow-600 ">First name only allow letters !!</span> 
+                            <span className="text-xs text-yellow-600 ">First name only letters !!</span> 
                           }                  
                         </div>
   
@@ -357,7 +357,7 @@ function Registration() {
                           </div>
                           {
                             validLname &&
-                            <span className="text-xs text-yellow-600 ">Last name only allow letters !!</span> 
+                            <span className="text-xs text-yellow-600 ">Last name only letters !!</span> 
                           }                   
                         </div>
                       </div>
